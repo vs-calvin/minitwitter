@@ -1,0 +1,114 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "vPEKH7ieBw9Sjdb6MYWDd6",
+      "projectApiToken": "qQcIgmXCPH3cEO6POBCrUviyqoFcq9GtZHG6rkgUiwXKWLF0Y8y9Cgt7bTooYs60vlvfkpAAy974E1gA1aA",
+      "projectName": "Minitwitter",
+      "version": "latest",
+      "cssFilePath": "plasmic/minitwitter/plasmic_minitwitter.module.css",
+      "components": [
+        {
+          "id": "NK-6wG0fpR2",
+          "name": "Feed",
+          "type": "managed",
+          "projectId": "vPEKH7ieBw9Sjdb6MYWDd6",
+          "renderModuleFilePath": "plasmic/minitwitter/PlasmicFeed.tsx",
+          "importSpec": {
+            "modulePath": "Feed.tsx"
+          },
+          "cssFilePath": "plasmic/minitwitter/PlasmicFeed.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "zbsjwzPGUgQ",
+          "name": "Post",
+          "type": "managed",
+          "projectId": "vPEKH7ieBw9Sjdb6MYWDd6",
+          "renderModuleFilePath": "plasmic/minitwitter/PlasmicPost.tsx",
+          "importSpec": {
+            "modulePath": "Post.tsx"
+          },
+          "cssFilePath": "plasmic/minitwitter/PlasmicPost.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sj3ZyowCADD",
+          "name": "Fab",
+          "type": "managed",
+          "projectId": "vPEKH7ieBw9Sjdb6MYWDd6",
+          "renderModuleFilePath": "plasmic/minitwitter/PlasmicFab.tsx",
+          "importSpec": {
+            "modulePath": "Fab.tsx"
+          },
+          "cssFilePath": "plasmic/minitwitter/PlasmicFab.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "7UP5b9K-7W7",
+          "name": "NewPost",
+          "type": "managed",
+          "projectId": "vPEKH7ieBw9Sjdb6MYWDd6",
+          "renderModuleFilePath": "plasmic/minitwitter/PlasmicNewPost.tsx",
+          "importSpec": {
+            "modulePath": "NewPost.tsx"
+          },
+          "cssFilePath": "plasmic/minitwitter/PlasmicNewPost.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "g6OHnTc4DK1",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "vPEKH7ieBw9Sjdb6MYWDd6",
+          "renderModuleFilePath": "plasmic/minitwitter/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/minitwitter/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "H82xVUEaqzu",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/minitwitter/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "cliVersion": "0.1.169",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.169/dist/plasmic.schema.json"
+}
